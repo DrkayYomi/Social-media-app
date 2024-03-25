@@ -1,0 +1,77 @@
+.Post {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 27px 11px #003300 ;
+-webkit-box-shadow: 10px 10px 27px 11px #003300;
+-moz-box-shadow: 10px 10px 27px 11px #003300;
+margin: 20px 0;
+}
+
+.Postwrapper {
+  padding: 10px;
+}
+
+.PostTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PostTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.PostTopLeftImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.PostUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.PostDate {
+  font-size: small;
+}
+
+.PostCenter {
+  margin: 20px 0;
+
+}
+.PostCenterPost1 {
+  margin-top: 20px;
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  
+}
+
+.PostBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.PostBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.LikeIcon {
+ cursor: pointer;
+}
+
+.PostLikeCounter {
+  font-size: 15px;
+}
+
+.PostBottomRightText {
+  cursor: pointer;
+  border-bottom: 1px dashed  grey;
+  font-size: 15px;
+}
